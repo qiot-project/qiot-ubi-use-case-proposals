@@ -1,0 +1,11 @@
+{
+    "uid": "rciots-client",
+    "append": true,
+    "watch": true,
+    "script": "app.js",
+    "sourceDir": "/var/home/edge/rciots/rciots-client-nodejs/",
+    "logFile": "/var/home/edge/rciots/rciots-client-nodejs/logs/forever.log",
+    "outFile": "/var/home/edge/rciots/rciots-client-nodejs/logs/out.log",
+    "errFile": "/var/home/edge/rciots/rciots-client-nodejs/logs/error.log",
+    "pidFile": "/var/home/edge/rciots/rciots-client-nodejs/rciots-client.pid"
+}
