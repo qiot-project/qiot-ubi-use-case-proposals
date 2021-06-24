@@ -1,0 +1,25 @@
+{
+  "name": "rciots-client",
+  "version": "0.0.1",
+  "description": "NodeJS client to manage remote devices from Openshift",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": {
+    "name": "Mario Parra",
+    "email": "mparram@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mparram/rciots-client-nodejs"
+  },
+  "dependencies": {
+    "docker-compose": "^0.23.8",
+    "forever": "^3.0.4",
+    "forever-monitor": "^3.0.3",
+    "node-machine-id": "^1.1.12",
+    "socket.io-client": "^4.0.1"
+  }
+}
